@@ -1,0 +1,13 @@
+﻿Pseudocode:
+
+    Main
+        Print the result of GetPow(3, 2)
+        Wait for user input
+
+    Function GetPow(baseNum, powNum)
+        Set result to 1
+
+        Loop from 0 to powNum - 1
+            Multiply result by baseNum and store in result
+
+        Return result
