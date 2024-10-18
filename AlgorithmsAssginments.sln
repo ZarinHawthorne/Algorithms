@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week-3-MatchThreeRecursion"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week-4 ConnectFour", "Week-4 ConnectFour\Week-4 ConnectFour.csproj", "{EFB3B66E-5A8A-489F-8742-791A0690BE52}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week-5-FisherYates-Shuffle", "Week-5-FisherYates-Shuffle\Week-5-FisherYates-Shuffle.csproj", "{A116EF22-F213-4D66-866C-BE5A825078A9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week-5-FisherYates-Shuffle", "Week-5-FisherYates-Shuffle\Week-5-FisherYates-Shuffle.csproj", "{A116EF22-F213-4D66-866C-BE5A825078A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week-6-MazeGame", "Week-6-MazeGame\Week-6-MazeGame.csproj", "{A05F96FC-AB66-4064-9067-798F1F0DCA31}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{A116EF22-F213-4D66-866C-BE5A825078A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A116EF22-F213-4D66-866C-BE5A825078A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A116EF22-F213-4D66-866C-BE5A825078A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A05F96FC-AB66-4064-9067-798F1F0DCA31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A05F96FC-AB66-4064-9067-798F1F0DCA31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A05F96FC-AB66-4064-9067-798F1F0DCA31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A05F96FC-AB66-4064-9067-798F1F0DCA31}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
