@@ -15,7 +15,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week-5-FisherYates-Shuffle"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week-6-MazeGame", "Week-6-MazeGame\Week-6-MazeGame.csproj", "{A05F96FC-AB66-4064-9067-798F1F0DCA31}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week-7-BagDataStructure", "Week-7-BagDataStructure\Week-7-BagDataStructure.csproj", "{5B9CB3F7-648D-4CB9-9C66-FD408889B6C5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week-7-BagDataStructure", "Week-7-BagDataStructure\Week-7-BagDataStructure.csproj", "{5B9CB3F7-648D-4CB9-9C66-FD408889B6C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week-8-DataStructures", "Week-8-DataStructures\Week-8-DataStructures.csproj", "{51B8AE1B-5204-40A5-A18F-016326CF4E5D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{5B9CB3F7-648D-4CB9-9C66-FD408889B6C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5B9CB3F7-648D-4CB9-9C66-FD408889B6C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5B9CB3F7-648D-4CB9-9C66-FD408889B6C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51B8AE1B-5204-40A5-A18F-016326CF4E5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51B8AE1B-5204-40A5-A18F-016326CF4E5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51B8AE1B-5204-40A5-A18F-016326CF4E5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51B8AE1B-5204-40A5-A18F-016326CF4E5D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
