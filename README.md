@@ -67,3 +67,25 @@ Worst Case: 𝑂(𝑛2) (poor pivot choices)
 
 Merge Sort Description: Recursively splits the array into halves, sorts, and merges them. 
 Best/Worst Case: 𝑂 (𝑛log𝑛)
+
+# Week 12
+
+## Searching
+
+Linear Search Description: Linear search sequentially checks each element of the array until the target element is found or the end of the array is reached. It does not require the data to be sorted. 
+Best Case: 𝑂 ( 1 ) (Target found at the first position) 
+Worst Case: 𝑂 ( 𝑛 ) (Target is at the last position or not found)
+
+Binary Search Description: Binary search works on sorted arrays by repeatedly dividing the search interval in half. It compares the middle element with the target and narrows the search to the appropriate half until the element is found or the interval is empty. 
+Best Case: 𝑂 ( 1 ) (Target found at the middle) 
+Worst Case: 𝑂 ( log ⁡ 𝑛 ) (Requires repeatedly halving the search space)
+
+Interpolation Search Description: Interpolation search works on sorted arrays. It improves upon binary search by estimating the likely position of the target element based on its value relative to the range of the current search interval. It is efficient for uniformly distributed data. 
+Best Case: 𝑂 ( 1 ) (Target found at the predicted position) 
+Worst Case: 𝑂 ( 𝑛 ) (If the data is not uniformly distributed)
+
+Why is Linear Search the Slowest? 
+Linear search examines every element until the target is found, resulting in a runtime directly proportional to the array size. Unlike binary or interpolation, it doesn’t exploit any properties of sorted data to reduce the search range.
+
+What is the Difference Between Binary and Interpolation Search? 
+Binary Search divides the search range in half regardless of the data distribution. It is robust and predictable, performing well even when the data is not uniformly distributed. Interpolation Search predicts the position of the target using a formula based on the distribution of the data. This makes it faster than binary search for uniformly distributed data but less reliable for uneven distributions.
