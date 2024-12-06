@@ -89,3 +89,21 @@ Linear search examines every element until the target is found, resulting in a r
 
 What is the Difference Between Binary and Interpolation Search? 
 Binary Search divides the search range in half regardless of the data distribution. It is robust and predictable, performing well even when the data is not uniformly distributed. Interpolation Search predicts the position of the target using a formula based on the distribution of the data. This makes it faster than binary search for uniformly distributed data but less reliable for uneven distributions.
+
+# Week 13
+
+## Tress
+
+Sorting the Data:
+The data is sorted using the List.Sort method for simplicity.
+
+Binary Search Tree (BST):
+A TreeNode class is defined to represent nodes in the tree, containing a Value, a Left pointer, and a Right pointer.
+The Insert method adds values to the BST while maintaining its structure.
+
+Traversal:
+The InOrderTraversal method recursively prints the nodes in sorted order, demonstrating the structure of the tree.
+
+Execution:
+Data is sorted and then inserted into the BST.
+The sorted data and the BST (in order) are displayed.
