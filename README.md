@@ -92,7 +92,7 @@ Binary Search divides the search range in half regardless of the data distributi
 
 # Week 13
 
-## Tress
+## Trees
 
 Sorting the Data:
 The data is sorted using the List.Sort method for simplicity.
